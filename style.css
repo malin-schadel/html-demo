@@ -1,0 +1,61 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@600&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  background-color: #FFF7E9;
+}
+
+h1, h2 {
+  font-family: 'Raleway';
+  color: #1746A2;
+}
+
+.card-white {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  margin: 24px auto;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  border: 1px solid #1746A2;
+  background-color: #1746A2;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin: 24px;
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.btn-blue:hover {
+  background-color: #5F9DF7;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+}
+
+.fa-brands {
+  font-size: 4em;
+  margin: 12px;
+  color: #1746A2;
+  transition: 0.6s;
+}
+
+.fa-brands:hover {
+  color: #5F9DF7;
+}
